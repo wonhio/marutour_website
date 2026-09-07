@@ -13,7 +13,7 @@ export default function DestinationsPage() {
       <section className="bg-navy-deep text-paper">
         <div className="container-content py-24 md:py-32">
           <div className="max-w-2xl">
-            <h1 className="h-display text-[2.6rem] md:text-[3.4rem]">
+            <h1 className="heading-display text-[2.6rem] md:text-[3.4rem]">
               Travel Experiences Across the World
             </h1>
             <p className="body-lg mt-6 text-[1.05rem] text-paper/75">

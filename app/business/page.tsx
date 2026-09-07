@@ -20,7 +20,7 @@ export default function BusinessPage() {
       <section className="bg-navy-deep text-paper">
         <div className="container-content py-24 md:py-32">
           <div className="max-w-2xl">
-            <h1 className="h-display text-[2.6rem] md:text-[3.4rem]">
+            <h1 className="heading-display text-[2.6rem] md:text-[3.4rem]">
               Global Travel Sourcing &amp; Distribution
             </h1>
             <p className="body-lg mt-6 text-[1.05rem] text-paper/75">
@@ -36,7 +36,7 @@ export default function BusinessPage() {
       <section id="sourcing" className="scroll-mt-20 bg-paper">
         <div className="container-content grid grid-cols-1 gap-12 py-20 md:grid-cols-2 md:gap-16 md:py-28">
           <div>
-            <h2 className="h-1 text-[1.9rem] text-ink md:text-[2.3rem]">
+            <h2 className="heading-1 text-[1.9rem] text-ink md:text-[2.3rem]">
               Travel Product Sourcing
             </h2>
             <p className="body-lg mt-6 text-[1rem] text-graphite">
@@ -58,7 +58,7 @@ export default function BusinessPage() {
       <section id="distribution" className="scroll-mt-20 bg-sand-light">
         <div className="container-content grid grid-cols-1 gap-12 py-20 md:grid-cols-2 md:gap-16 md:py-28">
           <div>
-            <h2 className="h-1 text-[1.9rem] text-ink md:text-[2.3rem]">
+            <h2 className="heading-1 text-[1.9rem] text-ink md:text-[2.3rem]">
               Global Distribution
             </h2>
             <p className="body-lg mt-6 text-[1rem] text-graphite">
@@ -80,7 +80,7 @@ export default function BusinessPage() {
       <section id="b2b" className="scroll-mt-20 bg-navy text-paper">
         <div className="container-content grid grid-cols-1 gap-12 py-20 md:grid-cols-2 md:gap-16 md:py-28">
           <div>
-            <h2 className="h-1 text-[1.9rem] md:text-[2.3rem]">
+            <h2 className="heading-1 text-[1.9rem] md:text-[2.3rem]">
               B2B Travel Solutions
             </h2>
             <p className="body-lg mt-6 text-[1rem] text-paper/70">
@@ -108,7 +108,7 @@ export default function BusinessPage() {
       <section className="bg-paper">
         <div className="container-content grid grid-cols-1 gap-12 py-20 md:grid-cols-2 md:gap-16 md:py-28">
           <div>
-            <h2 className="h-1 text-[1.9rem] text-ink md:text-[2.3rem]">
+            <h2 className="heading-1 text-[1.9rem] text-ink md:text-[2.3rem]">
               Technology
             </h2>
             <p className="body-lg mt-6 text-[1rem] text-graphite">

@@ -41,28 +41,28 @@ body {
 }
 
 /* Type scale (Elements of Typographic Style — modular, deliberate weights) */
-.h-display {
+.heading-display {
   font-family: var(--font-manrope);
   font-weight: 600;
   letter-spacing: -0.03em;
   line-height: 1.05;
 }
 
-.h-1 {
+.heading-1 {
   font-family: var(--font-manrope);
   font-weight: 600;
   letter-spacing: -0.025em;
   line-height: 1.1;
 }
 
-.h-2 {
+.heading-2 {
   font-family: var(--font-manrope);
   font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1.15;
 }
 
-.h-3 {
+.heading-3 {
   font-family: var(--font-manrope);
   font-weight: 600;
   letter-spacing: -0.015em;

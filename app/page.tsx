@@ -29,7 +29,7 @@ export default function HomePage() {
 
         <div className="container-content relative py-28 md:py-36">
           <div className="reveal max-w-2xl">
-            <h1 className="h-display text-[2.5rem] leading-[1.08] text-paper sm:text-[3.25rem] md:text-[3.9rem]">
+            <h1 className="heading-display text-[2.5rem] leading-[1.08] text-paper sm:text-[3.25rem] md:text-[3.9rem]">
               Connecting Local Travel Experiences to the World
             </h1>
             <p className="body-lg mt-7 max-w-xl text-[1.05rem] text-paper/75">
@@ -62,7 +62,7 @@ export default function HomePage() {
       <section className="bg-paper">
         <div className="container-content grid grid-cols-1 items-center gap-12 py-20 md:grid-cols-2 md:gap-16 md:py-28">
           <div>
-            <h2 className="h-1 text-[2rem] text-ink md:text-[2.5rem]">
+            <h2 className="heading-1 text-[2rem] text-ink md:text-[2.5rem]">
               A Global Network Built from Local Expertise
             </h2>
             <p className="body-lg mt-6 text-[1rem] text-graphite">
@@ -94,7 +94,7 @@ export default function HomePage() {
       {/* WHAT WE DO */}
       <section className="bg-sand-light">
         <div className="container-content py-20 md:py-28">
-          <h2 className="h-1 max-w-lg text-[2rem] text-ink md:text-[2.5rem]">
+          <h2 className="heading-1 max-w-lg text-[2rem] text-ink md:text-[2.5rem]">
             What We Do
           </h2>
           <div className="mt-12 grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2">
@@ -113,7 +113,7 @@ export default function HomePage() {
       <section className="bg-paper">
         <div className="container-content py-20 md:py-28">
           <div className="max-w-2xl">
-            <h2 className="h-1 text-[2rem] text-ink md:text-[2.5rem]">
+            <h2 className="heading-1 text-[2rem] text-ink md:text-[2.5rem]">
               From Local Suppliers to Global Markets
             </h2>
             <p className="body-lg mt-6 text-[1rem] text-graphite">
@@ -132,7 +132,7 @@ export default function HomePage() {
         <div className="container-content py-20 md:py-28">
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:gap-16">
             <div>
-              <h2 className="h-1 text-[2rem] md:text-[2.5rem]">
+              <h2 className="heading-1 text-[2rem] md:text-[2.5rem]">
                 Dubai at the Center of Global Travel
               </h2>
               <p className="body-lg mt-6 text-[1rem] text-paper/70">
@@ -157,7 +157,7 @@ export default function HomePage() {
       <section className="bg-paper">
         <div className="container-content py-20 md:py-28">
           <div className="flex flex-wrap items-end justify-between gap-6">
-            <h2 className="h-1 text-[2rem] text-ink md:text-[2.5rem]">
+            <h2 className="heading-1 text-[2rem] text-ink md:text-[2.5rem]">
               Featured Destinations
             </h2>
             <Link
@@ -179,7 +179,7 @@ export default function HomePage() {
       <section className="bg-sand-light">
         <div className="container-content py-20 md:py-28">
           <div className="max-w-2xl">
-            <h2 className="h-1 text-[2rem] text-ink md:text-[2.5rem]">
+            <h2 className="heading-1 text-[2rem] text-ink md:text-[2.5rem]">
               Grow With MARU Tour
             </h2>
             <p className="body-lg mt-6 text-[1rem] text-graphite">
@@ -211,7 +211,7 @@ export default function HomePage() {
       <section className="bg-paper">
         <div className="container-content grid grid-cols-1 gap-12 py-20 md:grid-cols-2 md:gap-16 md:py-28">
           <div>
-            <h2 className="h-1 text-[2rem] text-ink md:text-[2.5rem]">
+            <h2 className="heading-1 text-[2rem] text-ink md:text-[2.5rem]">
               Built for Travel Partners
             </h2>
             <p className="body-lg mt-6 text-[1rem] text-graphite">

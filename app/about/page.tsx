@@ -14,7 +14,7 @@ export default function AboutPage() {
       <section className="bg-navy-deep text-paper">
         <div className="container-content py-24 md:py-32">
           <div className="max-w-2xl">
-            <h1 className="h-display text-[2.6rem] md:text-[3.4rem]">
+            <h1 className="heading-display text-[2.6rem] md:text-[3.4rem]">
               Connecting Travel Markets Through Dubai
             </h1>
           </div>
@@ -49,15 +49,15 @@ export default function AboutPage() {
       <section className="bg-sand-light">
         <div className="container-content grid grid-cols-1 gap-10 py-20 md:grid-cols-2 md:py-28">
           <div className="border-t border-line pt-6">
-            <h2 className="h-3 text-[1.05rem] text-mist">Our Mission</h2>
-            <p className="h-2 mt-3 text-[1.4rem] text-ink">
+            <h2 className="heading-3 text-[1.05rem] text-mist">Our Mission</h2>
+            <p className="heading-2 mt-3 text-[1.4rem] text-ink">
               To connect high-quality local travel experiences with global
               travelers and travel partners.
             </p>
           </div>
           <div className="border-t border-line pt-6">
-            <h2 className="h-3 text-[1.05rem] text-mist">Our Vision</h2>
-            <p className="h-2 mt-3 text-[1.4rem] text-ink">
+            <h2 className="heading-3 text-[1.05rem] text-mist">Our Vision</h2>
+            <p className="heading-2 mt-3 text-[1.4rem] text-ink">
               To build one of the world&rsquo;s most connected travel product
               distribution networks.
             </p>
@@ -68,7 +68,7 @@ export default function AboutPage() {
       <section className="bg-paper">
         <div className="container-content grid grid-cols-1 gap-12 py-20 md:grid-cols-2 md:gap-16 md:py-28">
           <div>
-            <h2 className="h-1 text-[1.9rem] text-ink">Our Network</h2>
+            <h2 className="heading-1 text-[1.9rem] text-ink">Our Network</h2>
             <p className="body-lg mt-5 text-[1rem] text-graphite">
               Our team works across destinations, cultures and markets — the
               same reach that lets us source strong local products and build
@@ -76,7 +76,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div>
-            <h2 className="h-1 text-[1.9rem] text-ink">Why Dubai</h2>
+            <h2 className="heading-1 text-[1.9rem] text-ink">Why Dubai</h2>
             <p className="body-lg mt-5 text-[1rem] text-graphite">
               Dubai gives MARU Tour strategic access to major travel markets
               across the Middle East, Asia, Europe and Africa — positioning
@@ -88,7 +88,7 @@ export default function AboutPage() {
 
       <section className="bg-navy text-paper">
         <div className="container-content py-20 md:py-28">
-          <h2 className="h-1 text-[1.9rem] md:text-[2.3rem]">Our Approach</h2>
+          <h2 className="heading-1 text-[1.9rem] md:text-[2.3rem]">Our Approach</h2>
           <p className="body-lg mt-5 max-w-xl text-[1rem] text-paper/70">
             Values that guide how we source, partner and grow.
           </p>

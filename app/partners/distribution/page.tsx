@@ -14,7 +14,7 @@ export default function DistributionPartnersPage() {
       <section className="bg-navy text-paper">
         <div className="container-content py-24 md:py-32">
           <div className="max-w-2xl">
-            <h1 className="h-display text-[2.6rem] md:text-[3.4rem]">
+            <h1 className="heading-display text-[2.6rem] md:text-[3.4rem]">
               Expand Your Travel Inventory
             </h1>
             <p className="body-lg mt-6 text-[1.05rem] text-paper/75">
@@ -29,7 +29,7 @@ export default function DistributionPartnersPage() {
       <section className="bg-paper">
         <div className="container-content grid grid-cols-1 gap-16 py-20 md:grid-cols-2 md:py-28">
           <div>
-            <h2 className="h-2 text-[1.5rem] text-ink">Who this is for</h2>
+            <h2 className="heading-2 text-[1.5rem] text-ink">Who this is for</h2>
             <ul className="mt-6 space-y-3 border-t border-line pt-6">
               {distributionTargets.map((t) => (
                 <li key={t} className="body-md text-[0.95rem] text-graphite">
@@ -39,7 +39,7 @@ export default function DistributionPartnersPage() {
             </ul>
           </div>
           <div>
-            <h2 className="h-2 text-[1.5rem] text-ink">
+            <h2 className="heading-2 text-[1.5rem] text-ink">
               What you gain as a partner
             </h2>
             <ul className="mt-6 space-y-3 border-t border-line pt-6">
