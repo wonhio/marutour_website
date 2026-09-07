@@ -24,9 +24,6 @@ export default function Footer() {
               connecting local suppliers with travelers and travel partners
               worldwide.
             </p>
-            <p className="body-md mt-6 text-[0.85rem] text-paper/45">
-              Operated from Dubai, United Arab Emirates.
-            </p>
           </div>
 
           {Object.entries(footerNav).map(([title, links]) => (

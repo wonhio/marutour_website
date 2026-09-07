@@ -55,7 +55,6 @@ export const footerNav = {
     { label: "Supplier Partners", href: "/partners/supplier" },
     { label: "Distribution Partners", href: "/partners/distribution" },
   ],
-  Destinations: [{ label: "Explore All Destinations", href: "/destinations" }],
 };
 
 export const legalLinks: NavLink[] = [
