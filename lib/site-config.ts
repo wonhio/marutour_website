@@ -16,9 +16,9 @@ export const siteConfig = {
     city: "Dubai, United Arab Emirates",
   },
   contact: {
-    email: "partners@marutour.com",
-    whatsapp: "+971000000000", // update with live number
-    whatsappDisplay: "+971 00 000 0000",
+    email: "info@marutour.com",
+    whatsapp: "+971588455201",
+    whatsappDisplay: "+971 58 845 5201",
   },
   social: {
     linkedin: "https://www.linkedin.com/company/marutour",
