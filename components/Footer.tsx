@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { footerNav, legalLinks, siteConfig } from "@/lib/site-config";
+import { footerNav, legalLinks } from "@/lib/site-config";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="bg-navy-deep text-paper/80">
       <div className="container-content py-16 md:py-20">
-        <div className="grid grid-cols-2 gap-x-8 gap-y-12 md:grid-cols-6">
+        <div className="grid grid-cols-2 gap-x-8 gap-y-12 md:grid-cols-5">
           <div className="col-span-2">
             <Link href="/" className="flex items-center">
               <Image
@@ -46,33 +46,11 @@ export default function Footer() {
               </ul>
             </div>
           ))}
-
-          <div>
-            <h3 className="heading-3 text-[0.875rem] text-paper/90">Contact</h3>
-            <ul className="mt-4 space-y-3">
-              <li className="body-md text-[0.9rem] text-paper/55">
-                <span className="block text-paper/75">
-                  {siteConfig.companyName}
-                </span>
-                <span className="block">{siteConfig.address.line1}</span>
-                <span className="block">{siteConfig.address.line2}</span>
-                <span className="block">{siteConfig.address.city}</span>
-              </li>
-              <li>
-                <a
-                  href={`mailto:${siteConfig.contact.email}`}
-                  className="body-md text-[0.9rem] text-paper/55 transition-colors hover:text-paper"
-                >
-                  {siteConfig.contact.email}
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <div className="mt-16 flex flex-col gap-4 border-t border-paper/10 pt-8 md:flex-row md:items-center md:justify-between">
           <p className="body-md text-[0.82rem] text-paper/45">
-            © {year} MARU Tour. All Rights Reserved.
+            © {year} MARU EVENT TOURISM LLC. All Rights Reserved.
           </p>
           <ul className="flex flex-wrap gap-x-6 gap-y-2">
             {legalLinks.map((link) => (
