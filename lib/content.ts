@@ -4,6 +4,7 @@ export type Destination = {
   region: string;
   description: string;
   image: string;
+  url: string;
 };
 
 export const regions = [
@@ -23,6 +24,7 @@ export const destinations: Destination[] = [
       "Our home base and the connective center of the network — desert experiences, skyline attractions and premium city tours.",
     image:
       "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1600&auto=format&fit=crop",
+    url: "https://trateria.com/en/activities/result?city=06fff713-dc14-5417-999e-69cda6ca186b",
   },
   {
     slug: "abu-dhabi",
@@ -32,6 +34,7 @@ export const destinations: Destination[] = [
       "Cultural landmarks, island resorts and heritage experiences sourced through trusted local operators.",
     image:
       "https://images.unsplash.com/photo-1580418827493-f2b22c0a76cb?q=80&w=1600&auto=format&fit=crop",
+    url: "https://trateria.com/en/activities/result?city=8a7adf4a-91c1-5db4-b6fc-f8889e6b9542",
   },
   {
     slug: "saudi-arabia",
@@ -41,6 +44,7 @@ export const destinations: Destination[] = [
       "An emerging destination network spanning heritage sites, coastal development and desert adventure.",
     image:
       "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?q=80&w=1600&auto=format&fit=crop",
+    url: "https://trateria.com/en/activities/result?country=36dd124d-2154-45f1-9388-7934cdf47a75",
   },
   {
     slug: "thailand",
@@ -50,6 +54,7 @@ export const destinations: Destination[] = [
       "Island tours, cultural experiences and activity products distributed through longstanding local partnerships.",
     image:
       "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?q=80&w=1600&auto=format&fit=crop",
+    url: "https://trateria.com/en/activities/result?country=aafb3806-298a-5ec0-92de-535fe5adffc4",
   },
   {
     slug: "japan",
@@ -59,6 +64,7 @@ export const destinations: Destination[] = [
       "Precision-run experiences across cities and regions, sourced from operators known for consistency and care.",
     image:
       "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1600&auto=format&fit=crop",
+    url: "https://trateria.com/en/activities/result?country=9f427701-b500-53d5-86b3-b5898db0d40f",
   },
   {
     slug: "korea",
@@ -68,6 +74,7 @@ export const destinations: Destination[] = [
       "A strategic sourcing market for MARU Tour, connecting Korean travel demand with our global supplier network.",
     image:
       "https://images.unsplash.com/photo-1517154421773-0529f29ea451?q=80&w=1600&auto=format&fit=crop",
+    url: "https://trateria.com/en/activities/result?country=0e8b8015-f33c-5b33-8c8f-c36d73240c0e",
   },
   {
     slug: "singapore",
@@ -77,6 +84,7 @@ export const destinations: Destination[] = [
       "A distribution and transit hub for regional travel products, attractions and transfer services.",
     image:
       "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?q=80&w=1600&auto=format&fit=crop",
+    url: "https://trateria.com/en/activities/result?country=885e90a3-a83d-56d3-b5e8-040b4017c825",
   },
   {
     slug: "indonesia",
@@ -86,6 +94,7 @@ export const destinations: Destination[] = [
       "Island and cultural experiences sourced across a wide network of local activity and transport operators.",
     image:
       "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=1600&auto=format&fit=crop",
+    url: "https://trateria.com/en/activities/result?country=6d00a09f-f616-5c08-9007-edd20bfd11cc",
   },
   {
     slug: "vietnam",
@@ -95,15 +104,27 @@ export const destinations: Destination[] = [
       "Growing local supplier relationships across cities, coastlines and cultural heritage routes.",
     image:
       "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=1600&auto=format&fit=crop",
+    url: "https://trateria.com/en/activities/result?country=93b0ec8f-d8ca-533b-85df-5c5ea918ee50",
   },
   {
-    slug: "europe",
-    name: "Europe",
+    slug: "italy",
+    name: "Italy",
     region: "Europe",
     description:
-      "Multi-market coverage across major European destinations, connected through regional supplier partnerships.",
+      "Heritage cities and coastal experiences sourced through established European supplier partnerships.",
     image:
-      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=1600&auto=format&fit=crop",
+    url: "https://trateria.com/en/activities/result?country=2bea9058-3aff-45e4-976f-e356f9122394",
+  },
+  {
+    slug: "spain",
+    name: "Spain",
+    region: "Europe",
+    description:
+      "Culture, coastline and city experiences distributed through regional supplier partnerships.",
+    image:
+      "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1600&auto=format&fit=crop",
+    url: "https://trateria.com/en/activities/result?country=78a385f5-fb19-4ad1-bff3-6ec178175b4a",
   },
 ];
 

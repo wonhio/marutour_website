@@ -1,11 +1,12 @@
 import Image from "next/image";
-import Link from "next/link";
 import type { Destination } from "@/lib/content";
 
 export default function DestinationCard({ dest }: { dest: Destination }) {
   return (
-    <Link
-      href={`/destinations#${dest.slug}`}
+    <a
+      href={dest.url}
+      target="_blank"
+      rel="noopener noreferrer"
       className="group block overflow-hidden bg-white"
     >
       <div className="relative aspect-[4/5] overflow-hidden">
@@ -30,6 +31,6 @@ export default function DestinationCard({ dest }: { dest: Destination }) {
           View Destination
         </span>
       </div>
-    </Link>
+    </a>
   );
 }
