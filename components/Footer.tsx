@@ -10,15 +10,14 @@ export default function Footer() {
       <div className="container-content py-16 md:py-20">
         <div className="grid grid-cols-2 gap-x-8 gap-y-12 md:grid-cols-6">
           <div className="col-span-2">
-            <Link href="/" className="flex items-center gap-2.5">
+            <Link href="/" className="flex items-center">
               <Image
-                src="/images/maru-icon-white.png"
-                alt=""
-                width={30}
-                height={30}
-                className="h-7 w-7"
+                src="/images/maru-full-logo-white.png"
+                alt="MARU Tour"
+                width={2168}
+                height={622}
+                className="h-9 w-auto"
               />
-              <span className="h-3 text-[1.05rem] text-paper">MARU Tour</span>
             </Link>
             <p className="body-md mt-5 max-w-xs text-[0.925rem] text-paper/60">
               Dubai-based global travel sourcing and distribution company

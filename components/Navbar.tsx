@@ -29,18 +29,15 @@ export default function Navbar() {
       }`}
     >
       <div className="container-content flex h-20 items-center justify-between">
-        <Link href="/" className="flex items-center gap-2.5 shrink-0">
+        <Link href="/" className="flex items-center shrink-0">
           <Image
-            src="/images/maru-icon.png"
-            alt=""
-            width={34}
-            height={34}
-            className="h-8 w-8"
+            src="/images/maru-full-logo.png"
+            alt="MARU Tour"
+            width={2168}
+            height={622}
+            className="h-11 w-auto md:h-12"
             priority
           />
-          <span className="h-3 text-[1.15rem] text-ink">
-            MARU <span className="text-brand">Tour</span>
-          </span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-9">
