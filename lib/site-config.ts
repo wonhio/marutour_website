@@ -9,7 +9,7 @@ export const siteConfig = {
   description:
     "MARU Tour is a Dubai-based global travel company sourcing tours, activities and travel experiences from local suppliers and distributing them to travelers and travel partners worldwide.",
   location: "Dubai, United Arab Emirates",
-  companyName: "MARU EVEN TOURISM LLC",
+  companyName: "MARU EVENT TOURISM LLC",
   address: {
     line1: "Prime Business Centre",
     line2: "Tower B Unit 12B05, JVC",
