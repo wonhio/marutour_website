@@ -38,7 +38,10 @@ export default function PartnersPage() {
               heading="Take Your Travel Products Global"
               targets={supplierTargets}
               benefits={supplierBenefits}
-              cta={{ label: "Become a Supplier", href: "/partners/supplier" }}
+              cta={{
+                label: "Become a Supplier",
+                href: "https://partner.trateria.com/registration.html",
+              }}
               tone="dark"
             />
             <PartnerCard
@@ -47,7 +50,7 @@ export default function PartnersPage() {
               benefits={distributionBenefits}
               cta={{
                 label: "Become a Distribution Partner",
-                href: "/partners/distribution",
+                href: "mailto:info@marutour.com?subject=Distribution%20Partnership%20Inquiry",
               }}
               tone="light"
             />

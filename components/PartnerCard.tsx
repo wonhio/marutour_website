@@ -16,6 +16,13 @@ export default function PartnerCard({
   tone = "light",
 }: PartnerCardProps) {
   const dark = tone === "dark";
+  const isExternal = cta.href.startsWith("http");
+  const isMailto = cta.href.startsWith("mailto:");
+  const ctaClassName = `mt-8 inline-flex w-full items-center justify-center rounded-sm px-6 py-3 text-[0.9rem] transition-colors ${
+    dark
+      ? "bg-paper text-navy hover:bg-sand"
+      : "bg-navy text-paper hover:bg-navy-soft"
+  }`;
   return (
     <div
       className={`flex h-full flex-col p-8 md:p-10 ${
@@ -63,16 +70,20 @@ export default function PartnerCard({
         ))}
       </ul>
 
-      <Link
-        href={cta.href}
-        className={`mt-8 inline-flex w-fit items-center rounded-sm px-6 py-3 text-[0.9rem] transition-colors ${
-          dark
-            ? "bg-paper text-navy hover:bg-sand"
-            : "bg-navy text-paper hover:bg-navy-soft"
-        }`}
-      >
-        {cta.label}
-      </Link>
+      {isExternal || isMailto ? (
+        <a
+          href={cta.href}
+          target={isExternal ? "_blank" : undefined}
+          rel={isExternal ? "noopener noreferrer" : undefined}
+          className={ctaClassName}
+        >
+          {cta.label}
+        </a>
+      ) : (
+        <Link href={cta.href} className={ctaClassName}>
+          {cta.label}
+        </Link>
+      )}
     </div>
   );
 }
