@@ -32,7 +32,7 @@ export default function ContactForm() {
   if (status === "success") {
     return (
       <div className="border border-line bg-white p-8">
-        <h3 className="h-3 text-[1.15rem] text-ink">Message sent</h3>
+        <h3 className="heading-3 text-[1.15rem] text-ink">Message sent</h3>
         <p className="body-md mt-2 text-[0.925rem] text-graphite">
           Thank you for reaching out. Our team will respond to your inquiry
           shortly.

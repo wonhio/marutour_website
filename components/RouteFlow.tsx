@@ -31,7 +31,7 @@ export default function RouteFlow() {
                 <span className="hidden h-px flex-1 bg-line md:block" />
               )}
             </div>
-            <h3 className="h-3 mt-4 text-[1.05rem] text-ink">{step.title}</h3>
+            <h3 className="heading-3 mt-4 text-[1.05rem] text-ink">{step.title}</h3>
             <p className="body-md mt-2 text-[0.875rem] text-graphite">
               {step.detail}
             </p>

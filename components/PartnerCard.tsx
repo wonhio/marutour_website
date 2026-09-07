@@ -22,7 +22,7 @@ export default function PartnerCard({
         dark ? "bg-navy text-paper" : "bg-white border border-line text-ink"
       }`}
     >
-      <h3 className="h-2 text-[1.6rem]">{heading}</h3>
+      <h3 className="heading-2 text-[1.6rem]">{heading}</h3>
 
       <div className="mt-6">
         <p

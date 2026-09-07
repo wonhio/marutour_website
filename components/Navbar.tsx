@@ -35,7 +35,7 @@ export default function Navbar() {
             alt="MARU Tour"
             width={2168}
             height={622}
-            className="h-11 w-auto md:h-12"
+            className="h-[57px] w-auto md:h-[62px]"
             priority
           />
         </Link>

@@ -16,7 +16,7 @@ export default function Footer() {
                 alt="MARU Tour"
                 width={2168}
                 height={622}
-                className="h-9 w-auto"
+                className="h-[47px] w-auto"
               />
             </Link>
             <p className="body-md mt-5 max-w-xs text-[0.925rem] text-paper/60">
@@ -31,7 +31,7 @@ export default function Footer() {
 
           {Object.entries(footerNav).map(([title, links]) => (
             <div key={title}>
-              <h3 className="h-3 text-[0.875rem] text-paper/90">{title}</h3>
+              <h3 className="heading-3 text-[0.875rem] text-paper/90">{title}</h3>
               <ul className="mt-4 space-y-3">
                 {links.map((link) => (
                   <li key={link.href}>
@@ -48,10 +48,15 @@ export default function Footer() {
           ))}
 
           <div>
-            <h3 className="h-3 text-[0.875rem] text-paper/90">Contact</h3>
+            <h3 className="heading-3 text-[0.875rem] text-paper/90">Contact</h3>
             <ul className="mt-4 space-y-3">
               <li className="body-md text-[0.9rem] text-paper/55">
-                {siteConfig.location}
+                <span className="block text-paper/75">
+                  {siteConfig.companyName}
+                </span>
+                <span className="block">{siteConfig.address.line1}</span>
+                <span className="block">{siteConfig.address.line2}</span>
+                <span className="block">{siteConfig.address.city}</span>
               </li>
               <li>
                 <a

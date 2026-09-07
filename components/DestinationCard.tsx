@@ -22,7 +22,7 @@ export default function DestinationCard({ dest }: { dest: Destination }) {
         </span>
       </div>
       <div className="border border-t-0 border-line px-5 py-5">
-        <h3 className="h-3 text-[1.05rem] text-ink">{dest.name}</h3>
+        <h3 className="heading-3 text-[1.05rem] text-ink">{dest.name}</h3>
         <p className="body-md mt-2 text-[0.875rem] text-graphite line-clamp-2">
           {dest.description}
         </p>

@@ -28,7 +28,7 @@ export default function CTASection({
     >
       <div className="container-content py-20 md:py-28">
         <div className="max-w-2xl">
-          <h2 className="h-1 text-[2rem] md:text-[2.6rem]">{heading}</h2>
+          <h2 className="heading-1 text-[2rem] md:text-[2.6rem]">{heading}</h2>
           {text && (
             <p
               className={`body-lg mt-5 text-[1.05rem] ${
